@@ -1,4 +1,4 @@
-apt update
+apt-get update
 apt install -y sudo git python python3 vim
 DEBIAN_FRONTEND="noninteractive" apt-get -y install tzdata
 # Download ndn-cxx
